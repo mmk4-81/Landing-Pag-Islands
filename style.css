@@ -42,7 +42,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
@@ -50,20 +50,35 @@ body{
     color: var(--text-color);
 }
 
-h1,h2,u1,p{
+h1,
+h2,
+u1,
+p {
     margin: 0;
 }
 
-ul{
+ul {
     padding: 0;
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
+}
+
+
+/*Layout*/
+.main {
+    position: relative;
+}
+
+.bd-container {
+    max-width: 968px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
