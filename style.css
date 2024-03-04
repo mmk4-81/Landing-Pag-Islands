@@ -100,3 +100,19 @@ img {
     justify-content: space-between;
     align-items: center;
 }
+
+@media screen and (max-width:768px) {
+    .nav-menu{
+        position: fixed;
+        top: 4rem;
+        left: 0;
+        right: 0;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 1.5rem;
+        background-color: var(--first-color-lighter);
+        border-radius: 1rem;
+        transition: 0.4s;
+    }
+}
