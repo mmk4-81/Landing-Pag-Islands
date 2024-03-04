@@ -1,3 +1,14 @@
 /*google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+/*variables css*/
+:root{
+    --header-height: 3rem;
+
+    /*colors*/
+    --first-color: #26a69a;
+    --first-color-lighter: #ecf3f2;
+    --title-color: #11443f;
+    --text-color:#5b7b78;
+    --body-color:#f5fffe;
+}
