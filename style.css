@@ -17,4 +17,8 @@
     --biggest-font-size:3rem;
     --big-font-size:1.25rem;
     --normal-font-bold:0.938rem;
+
+    /*font weight*/
+    --font-medium:500;
+    --fot-semi-bold:600;
 }
