@@ -25,4 +25,13 @@
     /*z index*/
     --z-tooltip:10;
     --z-fixed:100;
+
+    @media screen and (min-width:1024px){
+        :root{
+            --biggest-font-size:5.5rem;
+            --big-font-size:2rem;
+            --normal-font-bold:1rem;
+        }
+    }
+
 }
