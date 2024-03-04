@@ -49,3 +49,21 @@ body{
     background-color: var(--body-color);
     color: var(--text-color);
 }
+
+h1,h2,u1,p{
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
