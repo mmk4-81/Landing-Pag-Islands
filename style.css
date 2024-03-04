@@ -11,4 +11,10 @@
     --title-color: #11443f;
     --text-color:#5b7b78;
     --body-color:#f5fffe;
+
+    /*font and typography*/
+    --body-font: 'Poppins',sens-serif;
+    --biggest-font-size:3rem;
+    --big-font-size:1.25rem;
+    --normal-font-bold:0.938rem;
 }
