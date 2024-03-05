@@ -156,3 +156,32 @@ img {
     object-fit: cover;
     object-position: center;
 }
+
+
+.islands-container{
+    position: relative;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr .25fr;
+    align-content: center;
+}
+
+.islands-subtitle,.islands-title,.islands-description{
+    color: var(--first-color-lighter);
+}
+
+.islands-subtitle{
+    font-size: var(--big-font-size);
+    font-weight: var(--font-medium);
+}
+
+.islands-title{
+    font-size: var(--biggest-font-size);
+}
+
+.islands-description{
+    margin-bottom: 1rem;
+}
+
+
+
