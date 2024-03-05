@@ -183,5 +183,16 @@ img {
     margin-bottom: 1rem;
 }
 
+.islands-button{
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background-color: var(--first-color-lighter);
+    color: var(--first-color);
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+}
 
-
+.islands-button:hover{
+    background-color: var(--body-color);
+}
