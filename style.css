@@ -222,7 +222,7 @@ img {
 }
 
 .islands-popup{
-    /* display: none; */
+    display: none;
  position: absolute;
  left: 50%;
  top: 50%;   
@@ -242,4 +242,8 @@ img {
     font-size: 1.2rem;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.show-popup{
+    display: block;
 }

@@ -13,3 +13,14 @@ console.log('AA');
 }
 
 showMenu('nav-toggle','nav-menu');
+
+
+//popup
+const btnOpenVideo = document.querySelectorAll('islands-video-icon ');
+const islandsPopup = document.getElementById('popup');
+
+function poPup(){
+    islandsPopup.classList.add('show-popup');
+}
+
+btnOpenVideo.forEach(b=>b.addEventListener('click',poPup));
