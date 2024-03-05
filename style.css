@@ -118,7 +118,7 @@ img {
 }
 
 .nav-logo,.nav-toggle{
-    /* color: var(--first-color-lighter); */
+    color: var(--first-color-lighter);
 }
 
 .nav-link{
@@ -138,4 +138,21 @@ img {
 /*show menu*/
 .show-menu{
     top: calc(var(--header-height) + 1rem);
+}
+
+
+/*Islands*/
+.islands{
+    height: 100vh;
+    position: relative;
+}
+
+.islands-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
 }
