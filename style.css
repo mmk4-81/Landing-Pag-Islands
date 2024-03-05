@@ -116,3 +116,21 @@ img {
         transition: 0.4s;
     }
 }
+
+.nav-logo,.nav-toggle{
+    /* color: var(--first-color-lighter); */
+}
+
+.nav-link{
+    color: var(--text-color);
+    font-weight: var(--font-medium);
+}
+
+.nav-item{
+    margin-bottom: 1.5rem;
+}
+
+.nav-toggle{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
