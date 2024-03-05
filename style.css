@@ -135,3 +135,7 @@ img {
     cursor: pointer;
 }
 
+/*show menu*/
+.show-menu{
+    top: calc(var(--header-height) + 1rem);
+}
