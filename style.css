@@ -201,3 +201,22 @@ img {
     font-size: 1.5rem;
     margin-left: 0.5rem;
 }
+
+.islands-video{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: .75rem;
+}
+
+.islands-video-content{
+    display: inline-flex;
+    padding: 0.15rem;
+    background-color: var(--first-color-lighter);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.islands-video-icon{
+    font-size: 1.8rem;
+    color: var(--first-color);
+}
