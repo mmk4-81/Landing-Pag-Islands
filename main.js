@@ -16,7 +16,7 @@ showMenu('nav-toggle','nav-menu');
 
 
 //popup
-const btnOpenVideo = document.querySelectorAll('islands-video-icon ');
+const btnOpenVideo = document.querySelectorAll('.islands-video-icon ');
 const islandsPopup = document.getElementById('popup');
 
 function poPup(){
@@ -24,3 +24,9 @@ function poPup(){
 }
 
 btnOpenVideo.forEach(b=>b.addEventListener('click',poPup));
+
+const btnCloseVideo = document.getElementById('popup-close');
+
+btnCloseVideo.addEventListener('click' , ()=>{
+    islandsPopup.classList.remove('show-popup')
+})
